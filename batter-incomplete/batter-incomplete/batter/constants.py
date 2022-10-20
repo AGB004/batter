@@ -55,7 +55,7 @@ IN_PLAY = 3
 GAME_OVER = 4
 
 # LEVELS
-LEVEL_FILE = "batter/batter-incomplete/batter-incomplete/batter/assets/data/level-001.txt"
+LEVEL_FILE = "batter/assets/data/level-001.txt"
 BASE_LEVELS = 5
 
 # -------------------------------------------------------------------------------------------------- 

@@ -164,10 +164,10 @@ class SceneManager:
 
     def _add_bricks(self, cast):
         cast.clear_actors(BRICK_GROUP)
-        
+        LevelFile = "batter/assets/data/level-{:03}.txt" 
         stats = cast.get_first_actor(STATS_GROUP)
         level = stats.get_level() % BASE_LEVELS
-        filename = LEVEL_FILE.format(level)
+        filename = LevelFile.format(level)
 
         with open(filename, 'r') as file:
             reader = csv.reader(file, skipinitialspace=True)
