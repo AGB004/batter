@@ -91,7 +91,7 @@ SCORE_FORMAT = "SCORE: {}"
 
 # BALL
 BALL_GROUP = "balls"
-BALL_IMAGE = "assets/images/000.png"
+BALL_IMAGE = "batter-incomplete/batter-incomplete/batter/assets/images/000.png"
 BALL_WIDTH = 28
 BALL_HEIGHT = 28
 BALL_VELOCITY = 6
