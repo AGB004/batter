@@ -164,7 +164,7 @@ class SceneManager:
 
     def _add_bricks(self, cast):
         cast.clear_actors(BRICK_GROUP)
-        LevelFile = "data/level-{:03}.txt" 
+        LevelFile = "batter-incomplete/batter-incomplete/batter/assets/data/level-{:03}.txt" 
         stats = cast.get_first_actor(STATS_GROUP)
         level = stats.get_level() % BASE_LEVELS
         filename = LevelFile.format(level)
